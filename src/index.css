@@ -1,0 +1,204 @@
+/* src/style.css */
+
+/* Reset básico para garantir que todos os elementos tenham um estilo consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffffff; /* Cor do texto em branco para o corpo todo */
+  background-color: #000000; /* Cor de fundo preta */
+}
+
+header {
+  background: #d60303;
+  color: #ffffff;
+  padding: 25px 0;
+  height: 100px;
+}
+
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff; /* Garante que o texto da logo também seja branco */
+}
+
+nav {
+  flex: 2;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* Cor do texto dos links em branco */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sobre {
+  margin-top: 20px;
+}
+
+.sobre h2 {
+  margin-bottom: 10px;
+  color: #ffffff; /* Cor do texto dos subtítulos em branco */
+}
+
+.sobre p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.image3 {
+  flex: 1;
+  max-width: 200px;
+  text-align: center;
+}
+
+.image3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #ffffff; /* Cor do texto dos títulos das seções em branco */
+}
+
+footer {
+  background: #d60303;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #ffffff; /* Cor do texto dos links no rodapé em branco */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer a img {
+  max-width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer a p {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* Estilos para a seção Hero */
+.hero {
+  background-color: black; /* Cor de fundo preta para a seção Hero */
+  color: white; /* Cor do texto em branco para contraste */
+  padding: 50px 0; /* Espaçamento interno superior e inferior */
+  text-align: center; /* Centraliza o conteúdo */
+  position: relative; /* Permite a manipulação de elementos internos */
+}
+
+.hero-content {
+  position: relative; /* Para garantir que o conteúdo se sobreponha ao fundo */
+  z-index: 1; /* Garante que o conteúdo fique sobre o fundo */
+}
+
+.hero h1 {
+  font-family: 'Arial', sans-serif; /* Fonte para o nome */
+  font-size: 3rem; /* Tamanho da fonte */
+  color: rgb(255, 255, 255); /* Cor do texto em branco */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+  margin: 0; /* Remove margens padrão */
+}
+
+.hero-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; /* Ajusta a imagem para cobrir a área */
+  opacity: 0.7; /* Leve transparência para a imagem */
+}
+
+/* Adicione isso ao seu arquivo CSS */
+.personal-paragraph {
+  padding: 20px; /* Espaço interno ao redor do texto */
+  margin: 20px 0; /* Espaço externo acima e abaixo do componente */
+}
+
+.personal-paragraph p {
+  text-align: justify;
+}
