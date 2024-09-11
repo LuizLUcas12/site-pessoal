@@ -11,11 +11,11 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #ffffff; /* Cor do texto em branco para o corpo todo */
-  background-color: #000000; /* Cor de fundo preta */
+  background-color: #d3d3d3; /* Cor de fundo cinza claro */
 }
 
 header {
-  background: #d60303;
+  background: #3d3838;
   color: #ffffff;
   padding: 25px 0;
   height: 100px;
@@ -80,9 +80,11 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 
-.center {
+.center h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 40px;
+  color: #000000;
 }
 
 .imagem img {
@@ -127,19 +129,21 @@ nav ul li a:hover {
 
 section {
   margin-bottom: 40px;
+  background-color: #ffffff; /* Fundo branco para as seções */
+  padding: 20px; /* Espaçamento interno para as seções */
+  border-radius: 8px; /* Bordas arredondadas para as seções */
 }
 
 section h2 {
   margin-bottom: 15px;
-  color: #ffffff; /* Cor do texto dos títulos das seções em branco */
+  color: #000000; /* Cor do texto dos títulos das seções */
 }
 
 footer {
-  background: #d60303;
+  background: #3d3838;
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  
 }
 
 footer h2 {
@@ -188,17 +192,49 @@ footer a p {
 
 .hero-image {
   width: 100%;
-  height: 500px;
+  height: 800px;
   object-fit: cover; /* Ajusta a imagem para cobrir a área */
   opacity: 0.7; /* Leve transparência para a imagem */
 }
 
-/* Adicione isso ao seu arquivo CSS */
-.personal-paragraph {
-  padding: 20px; /* Espaço interno ao redor do texto */
-  margin: 20px 0; /* Espaço externo acima e abaixo do componente */
+/* Estilos para os cards */
+.card-img-top {
+  height: 300px; /* Ajuste a altura da imagem do card */
+  object-fit: cover; /* Ajusta a imagem para cobrir a área */
+  border-radius: 10px; /* Borda arredondada para a imagem */
 }
 
-.personal-paragraph p {
+.card-body {
+  text-align: center;
+  padding: 15px; /* Ajuste o espaçamento interno do corpo do card */
+}
+
+.card-title {
+  font-size: 18px; /* Ajuste o tamanho da fonte do título do card */
+}
+
+.card-text {
+  font-size: 14px; /* Ajuste o tamanho da fonte do texto do card */
+}
+
+.personal-paragraph {
+  font-size: 30px;
+  padding: 50px;
   text-align: justify;
 }
+
+/* styles.css */
+
+/* Centralizar o título na tela */
+.centered-title {
+  text-align: center;
+  margin: 20px 0; /* Ajuste o valor conforme necessário */
+  font-size: 35px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
