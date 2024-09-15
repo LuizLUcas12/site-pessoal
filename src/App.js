@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import bike from './assets/BIke.jpeg';
 import academia from './assets/Academia.jpeg';
 import nadar from './assets/Nadar.jpeg';
-import profilePic from './assets/Destaque.jpeg'; // sua foto de perfil
+import profilePic from './assets/Destaque.jpeg'; 
 
 const App = () => {
   return (
@@ -39,7 +39,7 @@ const Main = () => (
     <HeroSection />
     <PersonalParagraph />
     <SectionCuriosidades />
-    <SectionPortfolio /> {/* Adiciona a nova seção Portfólio */}
+    <SectionPortfolio /> 
 
   </main>
 );
@@ -185,23 +185,6 @@ const SectionPortfolio = () => (
   </section>
 );
 
-const SectionCausos = () => (
-  <section>
-    <h2 id="titulo03">Causos</h2>
-    <h3>A primeira vez que eu dirigi um carro na minha vida</h3>
-    <p>
-      Um certo dia o meu pai ofereceu o carro para eu dirigir, só que eu fiquei com medo e recusei pois não sabia quase nada sobre, devido nunca ter dirigido na minha vida. Mas em outro dia eu disse, não eu tenho que perder esse medo de dirigir ai então fui perdi o medo, tirarei minha CNH se deus quiser e hoje ando por qualquer canto da cidade conforme a lei.
-    </p>
-  </section>
-);
-
-const SectionHabilidades = () => (
-  <section>
-    <h2 id="titulo04">Habilidades</h2>
-    <p>Quando eu era mais pequeno eu tinha muita habilidade em jogar bola, mas com o passar dos anos foi perdendo esse gás que tinha por falta de não treinar mais, é então só jogo as vezes com os amigos.</p>
-    <p>Também tinha uma habilidade em desenhar, mas não foquei nessa área.</p>
-  </section>
-);
 
 const Footer = () => (
   <footer>
