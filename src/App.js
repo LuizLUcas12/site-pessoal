@@ -25,11 +25,9 @@ const Header = () => (
       </div>
       <nav>
         <ul>
-          <li><a href="#titulo01">Curiosidades</a></li>
-          <li><a href="#titulo02">Educação</a></li>
-          <li><a href="#titulo03">Causos</a></li>
-          <li><a href="#titulo04">Habilidades</a></li>
-          <li><a href="#titulo05">Contatos</a></li>
+          <li><a href="#titulo01">Biografia</a></li>
+          <li><a href="#titulo02">Curiosidades</a></li>
+          <li><a href="#titulo03">portfolio</a></li>
         </ul>
       </nav>
     </div>
@@ -42,8 +40,7 @@ const Main = () => (
     <PersonalParagraph />
     <SectionCuriosidades />
     <SectionPortfolio /> {/* Adiciona a nova seção Portfólio */}
-    <SectionCausos />
-    <SectionHabilidades />
+
   </main>
 );
 
@@ -64,7 +61,7 @@ const HeroSection = () => (
 const PersonalParagraph = () => (
   <section className="personal-paragraph">
     <div className="center">
-      <h2>Biografia</h2>
+      <h2 id= "titulo01" className="centered-title">Biografia</h2>
       <p>
         Olá, meu nome é Luiz Lucas Costa Dantas. Gosto de tecnologia e estou sempre em busca de aprender novas habilidades. Além dos meus estudos em informática, gosto de frequenta academia andar de bicicleta e jogar futebol. Nas horas vagas, também curto jogar jogos online e aprender coisas novas. O aprendizado contínua e atividades prazerosas é essencial para um equilíbrio saudável na vida. Espero que você goste de conhecer um pouco mais sobre mim através desta página!
       </p>
@@ -74,7 +71,7 @@ const PersonalParagraph = () => (
 
 const SectionCuriosidades = () => (
   <section className="section">
-    <h2 id="titulo01" className="centered-title">Curiosidades</h2>
+    <h2 id="titulo02" className="centered-title">Curiosidades</h2>
     <Row xs={1} md={2} lg={3} className="g-4">
       <Col>
         <Card>
@@ -137,7 +134,7 @@ const SectionCuriosidades = () => (
 
 const SectionPortfolio = () => (
   <section className="portfolio-section">
-    <h2 id="titulo06" className="centered-title">Portfólio</h2>
+    <h2 id="titulo03" className="centered-title">Portfólio</h2>
     <Row xs={1} md={3} className="g-4 portfolio-cards">
       <Col>
         <Card className="portfolio-card">
@@ -208,17 +205,16 @@ const SectionHabilidades = () => (
 
 const Footer = () => (
   <footer>
-    <h2 id="titulo05">Contatos:</h2>
     <a href="mailto:Luiz.lucas@escolar.ifr.edu.br">
-      <img src="imagem/Gmail.png" alt="Gmail" />
+      <img src="https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000" alt="Gmail" />
       <p>Email: Luiz.lucas@escolar.ifr.edu.br</p>
     </a>
     <a href="https://github.com/LuizLUcas12" target="_blank" rel="noopener noreferrer">
-      <img src="imagem/Github.png" alt="GitHub" />
+      <img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000" alt="GitHub" />
       <p>GitHub: LuizLUcas12</p>
     </a>
     <a href="https://www.instagram.com/luiizlucas_12/" target="_blank" rel="noopener noreferrer">
-      <img src="imagem/foto instagram.jfif" alt="Instagram" />
+      <img src="https://img.icons8.com/?size=100&id=nj0Uj45LGUYh&format=png&color=000000" alt="Instagram" />
       <p>Instagram: luiizlucas_12</p>
     </a>
   </footer>
