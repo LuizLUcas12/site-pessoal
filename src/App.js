@@ -1,13 +1,10 @@
 import React from 'react';
-import Hero from './assets/Hero.png';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import bike from './assets/BIke.jpeg';
 import academia from './assets/Academia.jpeg';
 import nadar from './assets/Nadar.jpeg';
-
-
-
+import profilePic from './assets/Destaque.jpeg'; // sua foto de perfil
 
 const App = () => {
   return (
@@ -44,6 +41,7 @@ const Main = () => (
     <HeroSection />
     <PersonalParagraph />
     <SectionCuriosidades />
+    <SectionPortfolio /> {/* Adiciona a nova seção Portfólio */}
     <SectionCausos />
     <SectionHabilidades />
   </main>
@@ -52,7 +50,13 @@ const Main = () => (
 const HeroSection = () => (
   <section className="hero">
     <div className="hero-content">
-      <img src={Hero} alt="Imagem de destaque" className="hero-image" />
+      <div className="hero-text">
+        <h1>Luiz Lucas Costa Dantas</h1>
+        <p>Sou apaixonado por tecnologia, academia e esportes. Sempre em busca de aprender e me aprimorar em novas habilidades.</p>
+      </div>
+      <div className="hero-image">
+        <img src={profilePic} alt="Foto de perfil" className="destaque" />
+      </div>
     </div>
   </section>
 );
@@ -131,6 +135,58 @@ const SectionCuriosidades = () => (
   </section>
 );
 
+const SectionPortfolio = () => (
+  <section className="portfolio-section">
+    <h2 id="titulo06" className="centered-title">Portfólio</h2>
+    <Row xs={1} md={3} className="g-4 portfolio-cards">
+      <Col>
+        <Card className="portfolio-card">
+          <Card.Body>
+            <Card.Title>Atemporal Brand</Card.Title>
+            <Card.Text>
+              O projeto consiste em um site de roupas fictício.
+              <br />
+              <strong>Tecnologias:</strong> HTML, CSS, Banco de dados.
+            </Card.Text>
+            <a href="https://github.com/jottav21/AtemporalBrand" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Ver no GitHub
+            </a>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col>
+        <Card className="portfolio-card">
+          <Card.Body>
+            <Card.Title>Jogo da Memória</Card.Title>
+            <Card.Text>
+              Jogo da memória desenvolvido com JavaScript.
+              <br />
+              <strong>Tecnologias:</strong> HTML, JavaScript.
+            </Card.Text>
+            <a href="https://github.com/jottav21/Projeto-JogoMemoria" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Ver no GitHub
+            </a>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col>
+        <Card className="portfolio-card">
+          <Card.Body>
+            <Card.Title>Jogo da Forca</Card.Title>
+            <Card.Text>
+              Jogo da forca desenvolvido em HTML e javaScript.
+              <br />
+              <strong>Tecnologias:</strong> HTML, javaScript.
+            </Card.Text>
+            <a href="https://github.com/jottav21/javaScript/tree/main/Aula04/Jogo%20da%20forca" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              Ver no GitHub
+            </a>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
+  </section>
+);
 
 const SectionCausos = () => (
   <section>
