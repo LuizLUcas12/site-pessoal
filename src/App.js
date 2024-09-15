@@ -15,7 +15,6 @@ const App = () => {
     </div>
   );
 };
-
 const Header = () => (
   <header>
     <div className="header-content">
@@ -33,7 +32,6 @@ const Header = () => (
     </div>
   </header>
 );
-
 const Main = () => (
   <main>
     <HeroSection />
@@ -43,7 +41,6 @@ const Main = () => (
 
   </main>
 );
-
 const HeroSection = () => (
   <section className="hero">
     <div className="hero-content">
@@ -57,7 +54,6 @@ const HeroSection = () => (
     </div>
   </section>
 );
-
 const PersonalParagraph = () => (
   <section className="personal-paragraph">
     <div className="center">
@@ -68,7 +64,6 @@ const PersonalParagraph = () => (
     </div>
   </section>
 );
-
 const SectionCuriosidades = () => (
   <section className="section">
     <h2 id="titulo02" className="centered-title">Curiosidades</h2>
@@ -131,7 +126,6 @@ const SectionCuriosidades = () => (
     </Row>
   </section>
 );
-
 const SectionPortfolio = () => (
   <section className="portfolio-section">
     <h2 id="titulo03" className="centered-title">Portfólio</h2>
@@ -184,8 +178,6 @@ const SectionPortfolio = () => (
     </Row>
   </section>
 );
-
-
 const Footer = () => (
   <footer>
     <a href="mailto:Luiz.lucas@escolar.ifr.edu.br">
