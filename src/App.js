@@ -5,6 +5,8 @@ import bike from './assets/BIke.jpeg';
 import academia from './assets/Academia.jpeg';
 import nadar from './assets/Nadar.jpeg';
 import profilePic from './assets/Destaque.jpeg'; 
+import jogo from './assets/jogo.jpeg';
+import futebol from "./assets/fut.jpeg"
 
 const App = () => {
   return (
@@ -92,7 +94,7 @@ const SectionCuriosidades = () => (
       </Col>
       <Col>
         <Card>
-          <Card.Img variant="top" src="imagem/call of duty.jfif" alt="Call of Duty" />
+          <Card.Img variant="top" src={jogo} alt="Call of Duty" />
           <Card.Body>
             <Card.Title>Call of Duty</Card.Title>
             <Card.Text>
@@ -103,7 +105,7 @@ const SectionCuriosidades = () => (
       </Col>
       <Col>
         <Card>
-          <Card.Img variant="top" src="imagem/futebol.jpg" alt="Futebol" />
+          <Card.Img variant="top" src={futebol} alt="Futebol" />
           <Card.Body>
             <Card.Title>Futebol</Card.Title>
             <Card.Text>
