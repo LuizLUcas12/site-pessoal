@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/site-pessoal/static/css/main.e714b1d0.css",
+    "main.js": "/site-pessoal/static/js/main.4be18387.js",
+    "static/media/Nadar.jpeg": "/site-pessoal/static/media/Nadar.1af9db4612fdd9f075c7.jpeg",
+    "static/media/jogo.jpeg": "/site-pessoal/static/media/jogo.fffa483a883cc9a04a63.jpeg",
+    "static/media/Destaque.jpeg": "/site-pessoal/static/media/Destaque.178b9ad522d22eed222f.jpeg",
+    "static/media/Academia.jpeg": "/site-pessoal/static/media/Academia.bbaae85d23eb83a093e9.jpeg",
+    "static/media/fut.jpeg": "/site-pessoal/static/media/fut.8c20f11a1fb1e1092b4f.jpeg",
+    "static/media/BIke.jpeg": "/site-pessoal/static/media/BIke.0c4435874f985de2205c.jpeg",
+    "index.html": "/site-pessoal/index.html",
+    "main.e714b1d0.css.map": "/site-pessoal/static/css/main.e714b1d0.css.map",
+    "main.4be18387.js.map": "/site-pessoal/static/js/main.4be18387.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e714b1d0.css",
+    "static/js/main.4be18387.js"
+  ]
+}
