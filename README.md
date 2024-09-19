@@ -14,7 +14,7 @@ npm start
 
 5 - Acesse o projeto em http://localhost:3000 no navegador.
 
-O projeto está localizado em srt!
+O projeto está localizado em src!
 
 
 
