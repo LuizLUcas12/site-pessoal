@@ -1,4 +1,3 @@
-/* Reset básico para garantir que todos os elementos tenham um estilo consistente */
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +7,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #ffffff; /* Cor do texto em branco para o corpo todo */
-  background-color: #d3d3d3; /* Cor de fundo cinza claro */
+  color: #ffffff; 
+  background-color: #d3d3d3; 
 }
 
 header {
@@ -34,7 +33,7 @@ header {
 }
 
 .logo-image {
-  width: 50px; /* Ajuste o tamanho conforme necessário */
+  width: 50px; 
   height: auto;
   margin-right: 10px;
 }
@@ -42,7 +41,7 @@ header {
 .logo h1 {
   margin: 0;
   font-size: 24px;
-  color: #ffffff; /* Garante que o texto da logo também seja branco */
+  color: #ffffff; 
 }
 
 nav {
@@ -63,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff; /* Cor do texto dos links em branco */
+  color: #ffffff; 
   text-decoration: none;
   font-size: 18px;
 }
@@ -97,7 +96,7 @@ nav ul li a:hover {
 
 .sobre h2 {
   margin-bottom: 10px;
-  color: #ffffff; /* Cor do texto dos subtítulos em branco */
+  color: #ffffff; 
 }
 
 .sobre p {
@@ -127,26 +126,25 @@ nav ul li a:hover {
 
 section {
   margin-bottom: 40px;
-  background-color: #ffffff; /* Fundo branco para as seções */
-  padding: 20px; /* Espaçamento interno para as seções */
-  border-radius: 8px; /* Bordas arredondadas para as seções */
+  background-color: #ffffff; 
+  padding: 20px; 
+  border-radius: 8px; 
 }
 
 section h2 {
   margin-bottom: 15px;
-  color: #000000; /* Cor do texto dos títulos das seções */
+  color: #000000; 
 }
 
 
 
-/* Estilos para a seção Hero */
 .hero {
-  background-color: black; /* Cor de fundo preta para a seção Hero */
-  color: white; /* Cor do texto em branco para contraste */
-  padding: 50px 0; /* Espaçamento interno superior e inferior */
-  display: flex; /* Usar flexbox para alinhar o conteúdo em duas colunas */
-  justify-content: space-between; /* Espaçamento entre as colunas */
-  align-items: center; /* Alinhar verticalmente o conteúdo */
+  background-color: black; 
+  color: white; 
+  padding: 50px 0; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .hero-content {
@@ -164,8 +162,8 @@ section h2 {
 
 .hero h1 {
   font-family: 'Arial', sans-serif;
-  font-size: 2.5rem; /* Tamanho da fonte */
-  color: rgb(255, 255, 255); /* Cor do texto em branco */
+  font-size: 2.5rem; 
+  color: rgb(255, 255, 255); 
   margin-bottom: 10px;
 }
 
@@ -184,45 +182,44 @@ footer {
   background: #3d3838;
   color: #ffffff;
   padding: 25px;
-  display: flex; /* Flexbox para organizar o conteúdo em linha */
-  justify-content: space-between; /* Espaça os itens entre as bordas */
-  align-items: center; /* Centraliza verticalmente os itens */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 footer a {
   color: #ffffff;
   text-decoration: none;
-  margin-right: 20px; /* Espaço entre os links, se necessário */
+  margin-right: 20px; 
   display: flex;
   align-items: center;
 }
 
 
 .destaque {
-  width: 300px; /* Tamanho da imagem de perfil */
+  width: 300px; 
   height: 300px;
-  border-radius: 50%; /* Deixa a imagem redonda */
+  border-radius: 50%; 
   object-fit: cover;
 }
 
-/* Estilos para os cards */
 .card-img-top {
-  height: 300px; /* Ajuste a altura da imagem do card */
-  object-fit: cover; /* Ajusta a imagem para cobrir a área */
-  border-radius: 10px; /* Borda arredondada para a imagem */
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px; 
 }
 
 .card-body {
   text-align: center;
-  padding: 15px; /* Ajuste o espaçamento interno do corpo do card */
+  padding: 15px; 
 }
 
 .card-title {
-  font-size: 18px; /* Ajuste o tamanho da fonte do título do card */
+  font-size: 18px; 
 }
 
 .card-text {
-  font-size: 14px; /* Ajuste o tamanho da fonte do texto do card */
+  font-size: 14px; 
 }
 
 .personal-paragraph {
@@ -231,10 +228,9 @@ footer a {
   text-align: justify;
 }
 
-/* Centralizar o título na tela */
 .centered-title {
   text-align: center;
-  margin: 20px 0; /* Ajuste o valor conforme necessário */
+  margin: 20px 0; 
   font-size: 35px;
 }
 
@@ -244,13 +240,12 @@ footer a {
   align-items: center;
 }
 
-/* Estilos para a seção de portfólio */
 .portfolio-section {
   margin-bottom: 40px;
-  background-color: #ffffff; /* Fundo branco para a seção de portfólio */
+  background-color: #ffffff; 
   padding: 30px;
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .portfolio-cards {
@@ -258,16 +253,16 @@ footer a {
 }
 
 .portfolio-card {
-  background-color: #f1d900; /* Cor de fundo amarela suave */
-  border: none; /* Remove a borda do card */
-  border-radius: 10px; /* Bordas arredondadas para o card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para o card */
-  transition: transform 0.3s ease-in-out; /* Efeito de transição ao passar o mouse */
+  background-color: #f1d900; 
+  border: none; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out; 
 }
 
 
 .portfolio-card:hover {
-  transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+  transform: translateY(-10px); 
 }
 
 .portfolio-card .card-body {
